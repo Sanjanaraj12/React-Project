@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.top-section {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  background: #d1e7dd;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.counter, .rich-text {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 45%;
+}
+
+.count-value {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.reset-btn {
+  background: #dc3545;
+}
+
+.reset-btn:hover {
+  background: #b02a37;
+}
+
+.bottom-section {
+  width: 80%;
+  background: #e9ecef;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
